@@ -1,0 +1,49 @@
+/*
+index.css
+*/
+.container{
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 200;
+}
+
+#span1 {
+    background-color:rgb(33, 152, 226);
+    color: white;
+    border-radius: 3px;
+    padding:2px;
+}
+
+#span2{
+    color: rgb(33, 152, 226);
+    font-weight: lighter;
+}
+
+.form{
+    align-items:center;
+}
+
+input{
+  
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    align-items: center;
+    width: 300px;
+}
+
+#register{
+    background-color:rgb(33, 152, 226) ;
+    border-radius: 5px;
+}
+
+#signin{
+    background-color: rgb(58, 166, 58);
+    border-radius: 5px;
+}
