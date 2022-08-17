@@ -3,11 +3,13 @@ index.css
 */
 .container{
     align-items: center;
+    margin: 30px 30px;
 }
 
 h1{
     text-align: center;
     font-weight: 200;
+    margin: 20px 20px;
 }
 
 #span1 {
@@ -22,12 +24,30 @@ h1{
     font-weight: lighter;
 }
 
-.form{
+.form:hover{
     align-items:center;
 }
 
-input{
-  
+.names{
+    display:flex;  
+    
+}
+
+.fname, .psw{
+    margin-right: 15px;
+}
+.lname, .confpsw{
+
+    margin-left: 15px;
+}
+.pswd{
+    display: flex;
+
+}
+
+
+.buttons{
+    align-content: center;
 }
 
 button{
@@ -41,9 +61,13 @@ button{
 #register{
     background-color:rgb(33, 152, 226) ;
     border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
 }
 
 #signin{
     background-color: rgb(58, 166, 58);
     border-radius: 5px;
+    margin: 10px;
+    padding:5px 5px;
 }

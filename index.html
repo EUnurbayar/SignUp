@@ -18,12 +18,16 @@
     <div class="container">
         <h1>Sign Up</h1>
             <form class="form">
-                <input type="text" class="form-control fname" id="fname" placeholder="First Name" required/>
-                <input type="text" class="form-control lname" id="lname" placeholder="Last Name" required/>
-                <input type="text" class="form-control mobileNo col-md-6" id="mobileNo" placeholder="Mobile No." required/>
-                <input type="email" class="form-control email  col-md-6" id="email" placeholder="Email Address" required/>
-                <input type="password" class="form-control psw" id="psw" placeholder="Password" required/>
-                <input type="password" class="form-control psw" id="psw" placeholder="Confirm Password" required/>
+                <div class="names col-md-12">
+                    <input type="text" class="form-control fname mb-3" id="fname" placeholder="First Name" required/>
+                    <input type="text" class="form-control lname mb-3" id="lname" placeholder="Last Name" required/>
+                </div>
+                <input type="text" class="form-control mobileNo mb-3" id="mobileNo" placeholder="Mobile No." required/>
+                <input type="email" class="form-control email  mb-3" id="email" placeholder="Email Address" required/>
+                <div class="pswd">
+                    <input type="password" class="form-control psw mb-3" id="psw" placeholder="Password" required/>
+                    <input type="password" class="form-control confpsw mb-3" id="psw" placeholder="Confirm Password" required/>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <input type="checkbox" class="agree" id="agree" required/>
@@ -37,8 +41,10 @@
                         </p>
                     </div>
                 </div>
-                <button id="register">Register</button>
-                <button id="signin">Sign in</button>
+                <div class="buttons">
+                    <button id="register">Register</button>
+                    <button id="signin">Sign in</button>
+                </div>
             </form>
     </div>
 </body>
