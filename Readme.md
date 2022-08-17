@@ -1,4 +1,3 @@
 
 
-![Screen Shot 2022-08-16 at 10 42 35 PM](https://user-images.githubusercontent.com/74628166/185030674-7a14736f-6b28-474d-8944-2435b453d646.png)
->>>>>>> 0cc9d0b (add image)
+![Screen Shot 2022-08-16 at 11 19 33 PM](https://user-images.githubusercontent.com/74628166/185033864-e1a71507-76f3-4354-b0fc-c2be63a9f53b.png)
